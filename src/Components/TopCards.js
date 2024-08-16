@@ -10,7 +10,7 @@ import engflag from '../assets/engflag.png'
 import pngflag from '../assets/pngflag.png'
 import { FaFilter } from "react-icons/fa";
 import { HiOutlineSortDescending } from "react-icons/hi";
-import { SlOptionsVertical } from "react-icons/sl";
+
 import 'react-circular-progressbar/dist/styles.css';
 import { ResponsiveContainer, LineChart, XAxis, CartesianGrid, YAxis, Legend, Line, Tooltip } from 'recharts'
 import axios from 'axios';
@@ -44,8 +44,8 @@ function TopCards() {
     const percentage2 = 45;
     return (
         <div className=''>
-            <div className='flex justify-between w-full h-full gap-6'>
-                <div className=' bg-cardgreen  h-1/3 w-full p-10 rounded-3xl'>
+            <div className='flex justify-between w-full h-full gap-1'>
+                <div className=' bg-cardgreen  h-1/3 w-full p-8 rounded-3xl'>
                     <h1 className='text-3xl font-bold'>Total Balance </h1>
                     <div className='flex justify-between'>
                         <div className='flex mt-5 font-semibold'>
@@ -70,7 +70,7 @@ function TopCards() {
 
 
                 </div>
-                <div className='bg-white  w-full p-10 rounded-3xl '>
+                <div className='bg-white  w-full p-8 rounded-3xl '>
                     <div className='flex justify-between'>
                         <h1 className='text-3xl font-bold'>Income </h1>
                         <h1 className='p-1 bg-lightgreen rounded-lg text-sm'>Month</h1>
@@ -112,8 +112,8 @@ function TopCards() {
                 </div>
 
             </div>
-            <div className='flex justify-between mt-5 gap-6'>
-                <div className='bg-white w-full py-5 px-10 rounded-3xl flex justify-between items-center'>
+            <div className='flex justify-between mt-3 gap-6'>
+                <div className='bg-white w-full py-1 px-10 rounded-3xl flex justify-between items-center'>
                     <div>
                         <div className=' rounded-full p-3'><img src={Icons} alt="Logo" className='w-10 h-10' /></div>
                         <div>

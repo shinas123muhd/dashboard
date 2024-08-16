@@ -6,7 +6,7 @@ import RightSideCards from '../Components/RightSideCards'
 
 function DashboardPage() {
   return (
-    <div className='h-screen py-5 px-32 flex bg-gray-100 font-abc'>
+    <div className='h-screen py-5  flex bg-gray-100 font-abc'>
         <SideBar/>
         <div className='ml-4 w-full'>
           <Navbar/>

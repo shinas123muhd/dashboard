@@ -59,7 +59,7 @@ function RightSideCards() {
                 </div>
                 
             </div>
-            <div className='bg-white h-1/4 rounded-lg p-5'>
+            <div className='bg-white h-1/4 rounded-lg p-4'>
                 <div className='flex justify-between'>
                     <h1 className='font-semibold'>Quick Transfer</h1>
                     <h1 className='text-purple-500'>View All</h1>
@@ -86,7 +86,7 @@ function RightSideCards() {
                         
                     </div>
                 </div>
-                <div className='flex justify-between mt-5 bg-gray-100 w-full rounded-full items-center p-5'>
+                <div className='flex justify-between mt-5 bg-gray-100 w-full rounded-full items-center p-2'>
                     <div className='  flex'>
                         <div className=' rounded-full'><img src={dp} alt="Logo" className='w-7 h-7'/></div>
                         <h1 className='text-2xl font-medium ml-1'>$2658</h1>
